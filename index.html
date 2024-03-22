@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web desighn</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar" id="navbar">
+      <ul>
+        <li><a href="#Banner">Home</a></li>
+        <li><a href="#FEATURE">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#reviews">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
+    <button class="floating-btn" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button>
+    
+    <script>
+    function toggleNavbar() {
+      var navbar = document.getElementById('navbar');
+      navbar.classList.toggle('active');
+    }
+    </script>
+    </div>
+    
+
+    <section id="Banner">
+      <img src="images/logo1.png" class="logo" />
+      <div class="Bannertext">
+        <h1>Home Cleaning</h1>
+        <p>Don't stress &hellip; we'll handle the mess.</p>
+        <br></div><br>
+        <p class="sub"><strong>CLEANIFY</strong> is dedicated to preserving your property’s structure while amplifying its aesthetic appeal. Experience the transformation your home deserves with our superior power washing services in Massachusetts! </p>
+      </div>
+    </section>
+
+    <!--Features-->
+
+    <section id="FEATURE">
+      <div class="title-text">
+        <p>FEATURES</p>
+        <h1>WHY CHOOSE US</h1>
+        <p class="line1">
+          When you choose Cleanify, you are choosing: <br><br/>
+          &#9989;Experienced Professionals: Our team consists of skilled and
+          experienced cleaners who know how to get the job done right.<br><br/>
+          &#9989;Environmentally Friendly Practices: We use eco-friendly
+          products and cleaning methods to minimize our impact on the
+          environment<br><br/>.&#9989; Customized Cleaning Plans: We tailor our cleaning
+          services to meet your specific needs and preferences.<br><br/>&#9989; Satisfaction
+          Guarantee: We are committed to ensuring that you are completely
+          satisfied with our cleaning services.
+        </p>
+      </div>
+    </section>
+    <!--service-->
+
+    <section id="service">
+      <div class="title-text">
+        <p>SERVICES</p>
+        <h1>PROVIDING QUALITY SERVICES FOR YOU</h1>
+        <p class="line2">1. House Cleaning
+
+          Keep your living space fresh and spotless with our thorough house cleaning services. Our team of experts will ensure every nook and cranny is sparkling clean.
+           <br><br/>
+          
+          2. Car Cleaning
+          
+          Let us take care of your vehicle with our specialized car cleaning services. From interior vacuuming to exterior detailing, we've got you covered. <br><br/>
+          
+          3. Office Cleaning
+          
+          Maintain a pristine work environment with our efficient office cleaning services. We'll ensure your workspace is clean, organized, and conducive to productivity.<br><br/>
+          
+          4. Store Cleaning
+          
+          Create a welcoming atmosphere for your customers with our professional store cleaning services. We'll help you make a lasting impression with a clean and tidy store environment.</p>
+    </section>
+
+ <!--reviews-->
+
+ <section id="reviews">
+  <div class="title-text">
+    <p>REVIEWS</p>
+    <h1>HERE ARE SOME OF OUR CLIENTS REVIEWS</h1>
+    <P class="line3">"cleanify has been a lifesaver! Their attention to detail is unmatched, and my house has never looked better." - Sarah M.<br><br/>
+
+      "I rely on cleanify for all my car cleaning needs. Their service is always reliable and efficient." - John D.<br><br/>
+      "cleanify has been a lifesaver! Their attention to detail and thorough cleaning services have made my home shine like never before." - Happy Customer<br><br/>
+
+      "Professional, reliable, and efficient - that's cleanify for you. I highly recommend their services to anyone in need of top-quality cleaning solutions." - Satisfied Client<br><br/><br><br/><br><br/></P>
+
+  <!--contact-->
+
+  <section id="contact">
+    <div class="title-text">
+      <p>CONTACT US</p>
+      <h1>Get in Touch &phone;</h1>
+      <body class="call">Ready to experience the cleanify difference? Contact us today&mdash;Cleanify@gmail.com&mdash; to schedule your next cleaning appointment and let us transform your space into a pristine oasis.</body><br><br/><br><br/><br><br/><br><br/>
+      
+      <!--rate us-->
+     <body class="last">
+      <section id="rate us"> <div class="customers"> 
+        <div class="title">Rate your experience</div>
+       
+        <div class="rate-box">
+          <input type="radio" name="star" id="star0"/>
+          <label class="star" for="star0"></label>
+          <input type="radio" name="star" id="star1"/>
+          <label class="star" for="star1"></label>
+          <input type="radio" name="star" id="star2" checked="checked"/>
+          <label class="star" for="star2"></label>
+          <input type="radio" name="star" id="star3"/>
+          <label class="star" for="star3"></label>
+          <input type="radio" name="star" id="star4"/>
+          <label class="star" for="star4"></label>
+        </div>
+        <textarea cols="30" rows="6" placeholder="Tell us about your experience!"></textarea>
+        <div class="submit-btn">Send</div>
+      </div></section>
+      <br><br/>
+    </div>
+    <a href="#" class="topofpage">TOP</a>
+     
+      <br><br/>
+      <br><br/>
+      <img src="images/11.jpg">
+
+      <br><br/>
+      <br><br/>
+      <br><br/>
+      <img src="images/cleanhouse.jpg">
+
+      <br><br/>
+      <br><br/>
+      <br><br/>
+
+      <img src="images/22.jpg">
+
+      <br><br/>
+      <br><br/>
+      <br><br/>
+      <img src="images/cleaningteam.jpg"
+     </body>
+     
+      
+    
+ 
+ 
+    </body>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 500,
+      speedAsDuration: true
+    });
+</html>
